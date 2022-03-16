@@ -1,3 +1,13 @@
 function factorial(n) {
-  // ваш код...
+  let result = n;
+  if (result == 0){
+    result++;
+  } else {
+      for (let i = (n-1); i > 0; i--){
+      result *= i;
+    }
+  }
+  return result;
 }
+  let n = +prompt('Введите число','')
+  alert(factorial(n));
