@@ -9,5 +9,3 @@ function factorial(n) {
   }
   return result;
 }
-  let n = +prompt('Введите число','')
-  alert(factorial(n));
